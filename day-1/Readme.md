@@ -1,5 +1,3 @@
-## Notes
-
 Rust brings contemporary developer tools to the systems programming world:
 
 - Cargo, the included dependency manager and build tool, makes adding, compiling, and managing dependencies painless and consistent across the Rust ecosystem.
