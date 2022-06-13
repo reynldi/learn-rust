@@ -39,4 +39,28 @@ fn main() {
         println!("The final price is {}", final_price);
     }
 
+    // Tuple
+    let tup: (i32, f32, u8) = (500, 3.14, 125);
+    println!("The value of tup at index 0 is {}", tup.0); // print index by tuple index ( called period ), or
+
+    let (x, y, z) = tup; // destructure tuple
+    println!("The value of x is {}", x);
+    println!("The value of y is {}", y);
+    println!("The value of z is {}", z);
+
+    // Array
+    let arr = [1, 2, 3, 4, 5];
+    println!("The value of arr at index 0 is {}", arr[0]);
+
+    // i8 is the da;ta types, and 3 is the length of the array
+    let a: [i8; 3] = [1, 2, 3];
+    println!("The value of a is {}", a[2]);
+
+    // Define array with default value and length
+    let b = [5; 4];
+    println!("The value of b is {}", b[0]);
+    println!("The value of b is {}", b[1]);
+    println!("The value of b is {}", b[2]);
+    println!("The value of b is {}", b[3]);
+
 }
