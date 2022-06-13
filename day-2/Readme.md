@@ -31,3 +31,10 @@
 - Rust floating number by default is `f64` the smallest value is `f32`
 - We specify `char` literal with single quote, and the opossite we specify string literal with double quotes.
 - Rust’s `char`type is four bytes in size and represents a Unicode Scalar Value
+
+### Array in Rust
+
+- Element in array should have the same type
+- Array in rust is fixed, if we want something similar but more flexible we can use concept called  `vector`
+- A vector is a similar collection type provided by the standard library that *is*
+ allowed to grow or shrink in size.
